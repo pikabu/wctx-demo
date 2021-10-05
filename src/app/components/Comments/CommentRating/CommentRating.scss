@@ -1,0 +1,9 @@
+pkb-comment-rating {
+	@include dealRatingMixin;
+	background-color: transparent;
+
+	[itemprop="up"],
+	[itemprop="down"] {
+		margin: 0;
+	}
+}
